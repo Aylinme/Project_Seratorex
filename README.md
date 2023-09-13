@@ -1,3 +1,4 @@
+# Project_Seratorex
 Amaç: Aynı hastalığa sahip gelecekteki hastalar için uygun ilacı tahmin etmeye yönelik bir karar ağacı modeli oluşturmaktır. Veri seti Sex: cinsiyet, BP: kan basıncı, sodyum-potasyum dengesi: Na_to_K ve kolesterol: Cholesterol gibi özelliklerden oluşur ve hedef değişken, her hastanın yanıt verdiği ilaçtır (İlaç A, İlaç B, İlaç C, İlaç X veya İlaç Y). 
 
 Karar ağacı modelini oluşturmak için izlenen adımlar: 
@@ -12,9 +13,8 @@ Modeli değerlendirmesi: Karar ağacı modelinin performansını değerlendirmek
 
 Yeni hastalar için ilacı tahmini: Karar ağacı modeli eğitilip değerlendirildikten sonra, aynı hastalığa sahip yeni bir hasta için uygun ilacı tahmin etmek için kullanılabilir. Hastanın özelliklerini (yaş, cinsiyet, kan basıncı, sodyum-potasyum ve kolesterol) karar ağacına girdi olarak eklendiğinde tahmin edilen ilaç çıkacaktır. 
 
-#########################################################################################
+########################################################
 
-# Project_Seratorex
 Objective: The aim is to create a decision tree model for predicting the appropriate drug for future patients with the same medical condition
 The dataset consists of features such as Sex (gender), BP (blood pressure), sodium-potassium balance (Na_to_K), and cholesterol (Cholesterol), with the target variable being the drug to which each patient responds (Drug A, Drug B, Drug C, Drug X, or Drug Y).
 
